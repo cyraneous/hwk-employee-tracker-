@@ -1,11 +1,11 @@
-const mysql = require('mysql');
+const mysql = require("mysql");
 // Conect to employee_db database
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: "localhost",
   port: 3306,
-  user: 'root',
-  password: 'xExV2Rv3gjc7XC',
-  database: 'employee_db',
+  user: "root",
+  password: "Golddna23!",
+  database: "employeesDB",
   multipleStatements: true
 });
 
@@ -36,6 +36,7 @@ const database = {
     FOREIGN KEY(role_id) REFERENCES role(id),
     FOREIGN KEY(manager_id) REFERENCES employee(id) 
   )`,
+
   reset: function() {
     db.query(this.dropEmployeeTable, err => {
       if (err) throw err;
@@ -61,6 +62,7 @@ const database = {
       if (err) throw err;
     });
   },
+  
   init: function() {
     // Seed department table
     db.query(

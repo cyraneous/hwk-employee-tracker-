@@ -1,5 +1,6 @@
 const figlet = require('figlet');
 
+
 function createBanner() {
   return new Promise((resolve, reject) => {
     figlet(
@@ -27,6 +28,7 @@ async function displayBanner() {
   console.log(data);
   console.log('\n');
 }
+
 
 module.exports = {
   createBanner,

@@ -16,6 +16,7 @@ function displayHeadline(str) {
   });
 
   return headline;
+  
 }
 
 function displayResults(result) {
@@ -29,6 +30,7 @@ function displayResults(result) {
     space: false, // define if the output text should have empty lines on top and on the bottom
     maxLength: '0' // define how many character can be on one line
   });
+
 }
 
 function displayFooter(headline) {
@@ -37,6 +39,7 @@ function displayFooter(headline) {
   for (let i = 0; i < length; i++) {
     footer += '-';
   }
+
   CFonts.say(footer, {
     font: 'console', // define the font face
     align: 'left', // define text alignment
