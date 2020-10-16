@@ -8,12 +8,11 @@ https://github.com/cyraneous/hwk-employee-tracker-
 
 Demonstration
 
-
+![Alt-text](https://github.com/cyraneous/hwk-employee-tracker-/blob/main/assets/Employee%20Manager.JPG)
 
 ![Alt-text](https://github.com/cyraneous/hwk-employee-tracker-/blob/main/assets/Employee%20Manager.gif)
 
 
-![Alt-text](https://github.com/cyraneous/hwk-employee-tracker-/blob/main/assets/Employee%20Manager.JPG)
 
 
 
