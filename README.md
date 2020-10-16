@@ -10,11 +10,11 @@ Demonstration
 
 
 
-![Alt-text](https://drive.google.com/file/d/1L70M47jlKQaJudGNRktt09St9qFqnRhN/view)
+![Alt-text](https://github.com/cyraneous/hwk-employee-tracker-/blob/main/assets/Employee%20Manager.gif)
 
 
 
-![Alt-text](https://github.com/cyraneous/hwk-11-note-taker/blob/master/Main%20Page.JPG)
+
 
 
 
